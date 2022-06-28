@@ -1,14 +1,12 @@
 .head{
     height: 100px;
-    width: 100%;
-    
-    display: flex;
+    width: 100%; 
+    display:flex;
+    flex-direction: row;
     
 }
 
-/* tailuhfdslifjvb;siadjfvbd;o
-dnvfdvboksdfg
-dsvpagnkodkfngbo */
+
 .head img{
     height: 90px;
     padding-left: 250px;
@@ -30,7 +28,7 @@ dsvpagnkodkfngbo */
     border: 1px solid black;
     border-radius: 100px;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto;  
     margin-top: 20px;
 }
 .appointment-section{
@@ -100,4 +98,61 @@ position: relative;
 }
 .image-layer{
     width: 100%;
+    /* margin: -50px; */
 }
+.inner-box h5 {
+    padding-top: 15px;
+    text-align: left;
+    line-height: 0;
+    font-size: 20px;
+    font-family: 'Rob  oto Condensed', sans-serif;
+}
+.inner-box p{
+    font-size: 12px;
+    text-align: left;
+    color: #666666;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header-text{
+text-align: center!important;
+box-sizing: border-box;
+padding: 0px;
+border: none;
+outline: none;
+position: relative;
+margin: 0px;
+background: none;
+font-family: 'Roboto Condensed', sans-serif;
+display: block;
+font-size: 36px;
+line-height: 1.2em;
+font-weight: 700;
+}
+.clients-carousel,owl-carousel,owl-theme,owl-loaded,owl-drag {
+padding-top: 50px;
+}
+.owl-stage{
+    transform: translate3d(-276px, 0px, 0px);
+    transition: all 0.4s ease 0s;
+    width: 2212px
+}
+.about-section{
+    background-color: darkblue;
+    color: white;
+}
+.logo {
+    width: 250px;
+}
+.about-section h2 {
+    font-size: 20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+
+
